@@ -34,3 +34,38 @@ copia_texto_1 = texto_1  # Copia de la variable texto_1
 
 # Verifique que copia_texto_1 es distinta a texto_2
 # Imprima en pantalla según corresponda
+
+
+
+if texto_1 > texto_2:
+    print('{} es mayor que {} alfabeticamente'. format (texto_1,texto_2))
+elif texto_1 < texto_2:
+    print('{} es menor que {} alfabeticamente'. format (texto_1,texto_2))
+else:
+    print('{} y {} son iguales' .format(texto_1,texto_2))
+
+
+if len(texto_1) > len(texto_2):
+    print('{} tiene mas caracteres que {}' .format(texto_1,texto_2))
+elif len(texto_1) < len(texto_2):
+    print('{} tiene menos caracteres que {}' .format(texto_1,texto_2))
+else:
+    print('{} y {} tienen los mismos caracteres' .format(texto_1,texto_2))
+
+if texto_1[0] < texto_2[0]:
+    print('{} esta primero en el diccionario que {}'.format(texto_1,texto_2))
+elif texto_1[0] > texto_2[0]:
+    print('{} esta despues en el diccionario que {}' .format(texto_1,texto_2))
+else:
+    print('{} y {} comienzan con la misma letra'.format(texto_1,texto_2))
+
+
+if copia_texto_1 == texto_1:
+    print('copia_texto_1 es igual a texto_1')
+else:
+    print('copia_texto_1 y texto_1 son diferentes')
+
+if copia_texto_1 != texto_2:
+    print('copia_texto_1 y texto_2 son diferentes')
+else:
+    print('copia_texto_1 es igual a texto_2')
